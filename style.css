@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,100;1,300&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Lato;
+  letter-spacing: 0.1rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.3rem;
+}
+.drink {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 100%;
+}
+.recipe {
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 100%;
+}
+h2,
+h4 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem;
+}
+ul {
+  list-style: none;
+  letter-spacing: 0.05rem;
+  padding: 0 1rem 0.5rem 1rem;
+}
+.step,
+.unit,
+.value {
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+.img {
+  width: 100%;
+}
